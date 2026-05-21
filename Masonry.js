@@ -14765,11 +14765,11 @@
                             "data-featurable-group": "masonry layout",
                             children: d("load_more")
                         })
-                    }), l && (0, e.jsx)("0", {
+                    }), l && (0, e.jsx)("div", {
                         className: "flex items-center justify-center mt-4",
                         children: (0, e.jsx)(mo, {
                             theme: r.color_scheme,
-                            widgetId: s,
+                            widgetId: 0,
                             inline: !0
                         })
                     })]
