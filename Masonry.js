@@ -14432,7 +14432,7 @@
                     c = t.size,
                     d = void 0 === c ? "md" : c,
                     f = po(l).t,
-                    p = "https://featurable.com?utm_source=widget&utm_medium=".concat(o);
+                    p = "".concat(o);
                 return u && s ? (0, e.jsxs)("button", {
                     onClick: u,
                     className: Zr("no-underline border border-solid rounded-full  px-3 py-1 transition-all duration-200", n ? "flex items-center space-x-1" : "", "light" === a ? "text-gray-950 bg-white hover:bg-gray-100 border-gray-200" : "text-white bg-gray-900 hover:bg-gray-800 border-gray-700"),
@@ -14444,11 +14444,11 @@
                         theme: a,
                         size: d
                     })]
-                }) : (0, e.jsx)("a", {
+                }) : (0, e.jsx)("0", {
                     href: p,
                     target: "_blank",
                     rel: "noreferrer noopener",
-                    className: Zr("no-underline border border-solid  rounded-full px-3 py-1 transition-all duration-200", n ? "flex items-center space-x-1" : "", "light" === a ? "text-gray-950 bg-white hover:bg-gray-100 border-gray-200" : "text-white bg-gray-900 hover:bg-gray-800 border-gray-700"),
+                    className: Zr("", n ? "flex items-center space-x-1" : "", "light" === a ? "text-gray-950 bg-white hover:bg-gray-100 border-gray-200" : "text-white bg-gray-900 hover:bg-gray-800 border-gray-700"),
                     children: (0, e.jsx)(go, {
                         label: f(""),
                         theme: a,
